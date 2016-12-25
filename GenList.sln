@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenList", "GenList\GenList.csproj", "{3BFB8378-CFB9-406A-8888-9A70898D2A7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenList.Specs", "GenList.Specs\GenList.Specs.csproj", "{FBE90ADF-1D5C-4278-A8B9-528D4A3D333E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E60C45B0-98F2-4B7D-9CC8-391E7C488EDE}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +20,10 @@ Global
 		{3BFB8378-CFB9-406A-8888-9A70898D2A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BFB8378-CFB9-406A-8888-9A70898D2A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BFB8378-CFB9-406A-8888-9A70898D2A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE90ADF-1D5C-4278-A8B9-528D4A3D333E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE90ADF-1D5C-4278-A8B9-528D4A3D333E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE90ADF-1D5C-4278-A8B9-528D4A3D333E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE90ADF-1D5C-4278-A8B9-528D4A3D333E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
