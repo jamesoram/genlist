@@ -11,6 +11,7 @@ namespace GenList.Controllers
         public ActionResult Index()
         {
             ViewBag.ProductName = "GenList";
+            ViewBag.CompanyName = "Tromba Ltd";
             ViewBag.Headline = "Get Started.";
             ViewBag.Message = "You are closer to launching.";
             ViewBag.Copy = "Genlist is the easiest way to start collecting email addresses of people who are interested in your product launch.";

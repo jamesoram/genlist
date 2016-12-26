@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>@ViewBag.ProductName</title>
+        <title>@ViewBag.ProductName by @ViewBag.CompanyName</title>
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width" />
         @Styles.Render("~/Content/css")
@@ -34,7 +34,7 @@
         <footer>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year - Tromba Ltd</p>
+                    <p>&copy; @DateTime.Now.Year - @ViewBag.CompanyName</p>
                 </div>
             </div>
         </footer>
