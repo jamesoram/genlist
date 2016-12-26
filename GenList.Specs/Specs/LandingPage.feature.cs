@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace GenList.Specs
+namespace GenList.Specs.Specs
 {
     using TechTalk.SpecFlow;
     
@@ -18,7 +18,7 @@ namespace GenList.Specs
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.1.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [TechTalk.SpecRun.FeatureAttribute("Landing on the site displays marketing copy", Description="\tIn order to generate leads\r\n\tAs a product owner\r\n\tI want to inform my future cus" +
-        "tomers of the product being built", SourceFile="LandingPage.feature", SourceLine=0)]
+        "tomers of the product being built", SourceFile="Specs\\LandingPage.feature", SourceLine=0)]
     public partial class LandingOnTheSiteDisplaysMarketingCopyFeature
     {
         
