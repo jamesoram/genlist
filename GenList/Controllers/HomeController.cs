@@ -10,7 +10,10 @@ namespace GenList.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.ProductName = "GenList";
+            ViewBag.Headline = "Get Started.";
+            ViewBag.Message = "You are closer to launching.";
+            ViewBag.Copy = "Genlist is the easiest way to start collecting email addresses of people who are interested in your product launch.";
 
             return View();
         }
